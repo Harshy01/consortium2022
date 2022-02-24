@@ -65,25 +65,25 @@
             <div class="col-12 col-md-5">
                 <div class="owl-carousel owl-theme" id="two">
                   <div class="item">
-                      <img src="img/about/IMG_0001.JPG" alt="">
+                      <img src="img/about/img_0001.jpg" alt="">
                   </div>
                   <div class="item">
-                      <img src="img/about/IMG_0107.JPG" alt="">
+                      <img src="img/about/img_0107.jpg" alt="">
                   </div>
                   <div class="item">
-                      <img src="img/about/IMG_0663.JPG" alt="">
+                      <img src="img/about/img_0663.jpg" alt="">
                   </div>
                   <div class="item">
-                      <img src="img/about/IMG_1111.JPG" alt="">
+                      <img src="img/about/img_1111.jpg" alt="">
                   </div>
                   <div class="item">
-                      <img src="img/about/IMG_1315.JPG" alt="">
+                      <img src="img/about/img_1391.jpg" alt="">
                   </div>
                   <div class="item">
-                      <img src="img/about/IMG_1391.JPG" alt="">
+                      <img src="img/about/img_1315.jpg" alt="">
                   </div>
                   <div class="item">
-                      <img src="img/about/IMG_1095.JPG" alt="">
+                      <img src="img/about/img_1095.jpg" alt="">
                   </div>
                 </div>
             </div>
