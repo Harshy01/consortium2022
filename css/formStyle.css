@@ -1,0 +1,46 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+  background-image: url("../img/hexbg.jpg");
+}
+body h1 {
+  font-weight: 800;
+  color: #fff;
+}
+form label {
+  color: #fff;
+}
+.submit {
+  background-color: #fff;
+  border: none;
+  color: #000;
+}
+input::-webkit-input-placeholder {
+  font-size: 13px;
+  line-height: 3;
+}
+
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+@media only screen and (min-width: 992px) {
+  label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+
+  input,
+  select {
+    flex: 0 0 200px;
+    margin-left: 150px;
+  }
+}

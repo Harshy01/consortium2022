@@ -1,0 +1,356 @@
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+.item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.item:after,
+.active::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(45deg, #f04e26, #ec3838 41%, #ff0000 76%);
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transition: all 500ms ease;
+}
+.item:hover {
+  text-decoration: none;
+  color: red;
+}
+.item:hover::after {
+  left: 0;
+  width: 100%;
+}
+.active {
+  border-bottom: 2px solid transparent;
+  position: absolute;
+  width: 100%;
+  color: red;
+  transform: translate(-50%, -50%);
+  border-image: linear-gradient(45deg, #f04e26, #ec3838 41%, #ff0000 76%);
+  border-image-slice: 1;
+}
+
+
+/* ADVISORY CARDS */
+html{
+  scroll-behavior: smooth;
+}
+.card{
+  position: relative;
+  width: 300px;
+  height: 370px;
+  background-color: rgba(255, 255, 255, 0.1);
+  /* rgba(128, 128, 128, 0.274) */
+  margin: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .content{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.card:hover .content{
+  opacity: 1;
+  transform: translateY(-20px);
+}
+.imgBx{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0, 0, 0, 0.25);
+}
+.imgBx img{
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 150px;
+  height: 150px;
+}
+.contentBx h3{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+.contentBx h3 span{
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: initial;
+}
+.sci{
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sci li{
+  list-style: none;
+  margin: 0 20px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+}
+.card:hover .sci li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.sci li a{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  margin-left: -25px;
+  height: 40px;
+  width: 40px;
+  background-color: #ad0000;
+  border-radius: 50%;
+}
+
+.sci:hover li a{
+  text-decoration: none;
+  
+}
+
+/* CORE CARDS */
+.corecard img {
+  padding: 0 0;
+  width: 270px;
+  border-radius: 30px;
+  height: 344px;
+  border: 2px solid #fff;
+  
+}
+.flip-card {
+  background-color: transparent;
+  width: 270px;
+  height: 344px;
+  perspective: 1000px;
+  border-radius: 30px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #292929;
+  color: black;
+  width: 270px;
+  height: 344px;
+  border-radius: 30px;
+}
+
+.flip-card-back {
+  background-color: rgba(213, 36, 42, 0.781);
+  color: white;
+  width: 270px;
+  height: 344px;
+  border-radius: 30px;
+  transform: rotateY(180deg);
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flip-card-back h4{
+  font-weight: 700;
+}
+.flip-card-back h6{
+  font-style: italic;
+  font-weight: bold;
+}
+.flip-card-back p{
+  font-size: 16px;
+  font-weight: 500;
+}
+.flip-card-back a{
+  width: 35px;
+  height: 35px;
+  background-color: #292929;
+  margin: 5px 5px;
+  color: rgba(213, 36, 42, 0.781);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.flip-card-back a:hover{
+  background-color: #fff;
+  color: rgba(213, 36, 42, 0.781);
+}
+
+
+
+/* MANAGERS CARDS */
+.btnman{
+  max-width: 80%;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  position: relative;
+  height: auto;
+  border: none;
+  color: #fff;
+}
+.neo{
+  position: relative;
+  background: transparent linear-gradient(101deg, #FFA320 0%, #FF9413 61%, #FF8909 100%) 0% 0% ;
+}
+.neo:hover{
+  background: transparent linear-gradient(101deg, #FF8909 0%, #FF9413 61%, #FFA320 100%) 0% 0%;
+}
+.eco{
+  position: relative;
+  background: transparent linear-gradient(121deg, #7DB953 0%, #3F9205 100%) 0% 0%;
+}
+.eco:hover{
+  background: transparent linear-gradient(121deg, #3F9205  0%, #7DB953 100%) 0% 0%;
+}
+.coc{
+  position: relative;
+  background: transparent linear-gradient(111deg, #2BB4D8 0%, #0497BE 100%) 0% 0%;
+}
+.coc:hover{
+  background: transparent linear-gradient(121deg, #0497BE  0%, #2BB4D8 100%) 0% 0%;
+}
+.ceo{
+  position: relative;
+  background: transparent linear-gradient(111deg, #41d3bc 0%, #03c2a5 100%) 0% 0%;
+}
+.ceo:hover{
+  background: transparent linear-gradient(121deg, #03c2a5  0%, #41d3bc 100%) 0% 0%;
+}
+.wall{
+  position: relative;
+  background: transparent linear-gradient(106deg, #FF602C 0%, #DD210C 100%) 0% 0%;
+}
+.wall:hover{
+  background: transparent linear-gradient(121deg, #DD210C  0%, #FF602C 100%) 0% 0%;
+}
+.crypto{
+  position: relative;
+  background: transparent linear-gradient(124deg, #2E4CB8 0%, #0A237D 100%) 0% 0%;
+}
+.cryto:hover{
+  background: transparent linear-gradient(121deg, #0A237D  0%, #2E4CB8 100%) 0% 0%;
+}
+.ad{
+  position: relative;
+  background: transparent linear-gradient(290deg, #E28D6C  0%, #EEB784 100%) 0% 0%;
+}
+.ad:hover{
+  background: transparent linear-gradient(121deg, #EEB784  0%, #E28D6C  100%) 0% 0%;
+}
+.render{
+  position: relative;
+  background: transparent linear-gradient(109deg, #7F00FF 0%, #50069A 100%) 0% 0%;
+}
+.render:hover{
+  background: transparent linear-gradient(121deg, #50069A  0%, #7F00FF  100%) 0% 0%;
+}
+.managerName1, .managerName2,.managerName3, .managerName4, .managerName5, .managerName6, .managerName7, .managerName8, .managerName9{
+  background-color:rgba(255, 255, 255, 0.1);
+  align-items: center;
+  width: auto;
+  border-radius: 15px;
+}
+.managerName1 a h5,.managerName2 a h5, .managerName3 a h5,.managerName4 a h5, .managerName5 a h5, .managerName6 a h5, .managerName7 a h5, .managerName8 a h5, .managerName9 a h5{
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.managerName1 a h5:hover i, .managerName2 a h5:hover i, .managerName3 a h5:hover i, .managerName4 a h5:hover i,.managerName5 a h5:hover i, .managerName6 a h5:hover i, .managerName7 a h5:hover i, .managerName8 a h5:hover i, .managerName9 a h5:hover i{
+  color: #fff;
+}
+.managerName1 a h5 i, .managerName1 a h5:hover{
+  color: #F93154;
+}
+.managerName2 a h5 i, .managerName2 a h5:hover{
+  color: #ff8606;
+}
+.managerName3 a h5 i, .managerName3 a h5:hover{
+  color: #7DB953;
+}
+.managerName4 a h5 i, .managerName4 a h5:hover{
+  color: #2BB4D8;
+}
+.managerName5 a h5 i, .managerName5 a h5:hover{
+  color: #bd29c2;
+}
+.managerName6 a h5 i, .managerName6 a h5:hover{
+  color: #FF602C;
+}
+.managerName7 a h5 i, .managerName7 a h5:hover{
+  color: #2E4CB8;
+}
+.managerName8 a h5 i, .managerName8 a h5:hover{
+  color: #EEB784;
+}
+.managerName9 a h5 i, .managerName9 a h5:hover{
+  color: #7F00FF;
+}
+.managerName1 a, .managerName2 a,.managerName3 a, .managerName4 a, .managerName5 a, .managerName6 a, .managerName7 a, .managerName8 a, .managerName9 a {
+  text-decoration: none;
+}
+.hidden{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+    .item {
+      font-size: 1rem;
+    }
+    .btnman{
+      font-size: 18px;
+    }
+    .managerName1 a h5, .managerName2 a h5, .managerName3 a h5, .managerName4 a h5, .managerName5 a h5, .managerName6 a h5, .managerName7 a h5, .managerName8 a h5, .managerName9 a h5{
+      font-size: 16px;
+    }
+    .managerName1, .managerName2, .managerName3, .managerName4, .managerName5, .managerName6,.managerName7, .managerName8, .managerName9{
+      width: 77%;
+    }
+  }
