@@ -1,0 +1,198 @@
+body {
+  background-color: #171717;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+
+h2 {
+  color: white;
+}
+
+.btnth {
+  border-radius: 5px;
+  background-color: #d5242a;
+  color: white;
+  font-size: 1.1rem;
+  padding: 5px 20px;
+}
+@media only screen and (max-width: 450px) {
+  .btnth {
+    padding: 3px 20px;
+    font-size: 1rem;
+  }
+}
+
+.btnth {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnth:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnth:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.btnth:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+/* EVENTS CARDS CSS */
+.eventcard {
+  height: 468px;
+  width: 310px;
+  margin: 30px 50px;
+  background-color: #3a3a3a;
+  border-radius: 6px;
+}
+.eventcard img {
+  padding: 5px 0;
+  height: 298px;
+  width: 298px;
+  margin-left: -6px;
+  margin-top: 4px;
+}
+.desc {
+  font-size: small;
+}
+.btn4 {
+  color: #fff;
+  background-color: #d5242a;
+  margin-top: -30px;
+}
+.btn4:hover {
+  color: #fff;
+  background-color: #3a3a3a;
+  border: 1px solid white;
+  margin-top: -30px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.dropdown-toggle {
+  text-align: center;
+}
+.dropdown-menu {
+  background-color: #2e2c2c;
+}
+.dropdown-item:hover {
+  background-color: #d5242a;
+}
+
+.wrapper {
+  text-align: center;
+}
+.wrapper h2,
+.wrapper h4,
+.wrapper p {
+  color: #fff;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(to right, #a31d1d 10%, #e82545 50%, #ec7f77 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.username{
+    background: linear-gradient(to right, #c42e2e 0%, #b91631 80%);
+    left: 0;
+    font-size: 1.7rem;
+    border-radius: 20px;
+    height: auto;
+    margin: auto;
+    max-width: fit-content;
+    padding: 10px 30px;
+}
+
+.block-reveal h5 {
+    animation: color 0.5s ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    color: #fff;
+    opacity: 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.block-reveal {
+    height: 5rem;
+    line-height: 10rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+.block {
+    animation: reveal 1s ease-in-out;
+    animation-fill-mode: forwards;
+    background: linear-gradient(to right, #a31d1d 10%, #e82545 50%, #ec7f77 60%);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+@keyframes reveal {
+    0% {
+        transform: translateX(-100%);
+    }
+    
+    50% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes color {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+@media only screen and (max-width:767px){
+  .block-reveal h5{
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width:992px){
+  .reg{
+    font-size: 2rem;
+  }
+}
