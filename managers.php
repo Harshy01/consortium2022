@@ -3,7 +3,11 @@
 <head>
 <?php include('includes/header.php')?>
 <link rel="stylesheet" href="css/team.css">
-<title>Managers | Consortium 22</title>
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="img/favicon_io/site.webmanifest">
+<title>Managers | Consortium '22</title>
 </head>
 <body>
     <div class="container heading mt-4 mb-1 py-5 text-center" style="max-width: 90%;">
