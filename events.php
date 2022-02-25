@@ -63,7 +63,7 @@
           
 
           <div class="col-12 col-md-6 col-lg-4 eventcard mx-4">
-            <!-- <span class="tag px-4 py-2">PAN NIT</span> -->
+            <span class="tag px-4 py-2">PAN NIT</span>
             <img src="img/coc.jpg" alt="">
             <h5 class="mt-2" style="font-weight: bold;">CHAMBER OF COMMERCE</h5>
               <h6 class="mt-2 pb-3 mx-2 text-white text-left desc">Chamber of Commerce is a premier body whose goal is the collective and communal enhancement of businesses.It serves essential roles in development for projects.</h6>
