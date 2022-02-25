@@ -40,9 +40,9 @@
                 <div class="item">
                     <img src="img/about/img_1315.jpg" alt="">
                 </div>
-                <div class="item">
+                <!-- <div class="item">
                     <img src="img/about/img_1095.jpg" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -82,9 +82,9 @@
                   <div class="item">
                       <img src="img/about/img_1315.jpg" alt="">
                   </div>
-                  <div class="item">
+                  <!-- <div class="item">
                       <img src="img/about/img_1095.jpg" alt="">
-                  </div>
+                  </div> -->
                 </div>
             </div>
     
