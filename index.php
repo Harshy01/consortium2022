@@ -14,7 +14,7 @@
       <?php include('includes/header.php'); ?>
     <img id="home" class="d-none d-lg-block home" src="img/website_main_image.jpg" style="position: relative;">
     <a href="#about"><div class="caret d-none d-md-block"></div></a>
-    <img id="home_mob" class="d-block d-lg-none" style="height:100vh;width:100%;margin-top: -20%;" src="img/Mobile view.png" alt="">
+    <img id="home_mob" class="d-block d-lg-none" style="height:100vh;width:100%;margin-top: -20%;" src="img/Mobile view final.png" alt="">
       <a href="#about_mob"><div class="caret d-block d-md-none"></div></a>
 
     <!-- ABOUT DESKTOP -->
