@@ -49,7 +49,7 @@
         <div class="col-12 col-md-5 text-white ml-4 pt-4">
             <h2  style="font-weight: bolder;text-shadow: 0px 1px, 1px 0px, 1px 1px;">ABOUT</h2>
             <p style="color: rgb(160, 160, 160);font-size: 1.4vw;">Consortium, the Annual Entrepreneurship Summit of VNIT Nagpur comprises invigorating events like Startup Conclave, Chamber of Commerce, Ecopreneur and many more. The summit aims at fueling entrepreneurial attitudes amongst students through healthy competition,exciting challenges and various keynote sessions and panel discussions.
-              <br><span style="color: red;"> Get ready to Defy all Odds at Consortium'22.</span></p>
+              <br><span style="color: red;">Get ready to satiate your craving for answers in Consortium '22!</span></p>
             <a href="register.php"><button class="btn btn3 " style="font-size: 1.4vw;" >Register Now</button></a>
             <a class="ml-md-2" href="eventReg/check.php"><button class="btn btn3 " style="font-size: 1.4vw;" >Your events</button></a>
         </div>
@@ -91,7 +91,7 @@
             <div class="col-12 col-md-5">
                 
                 <p style="color: rgb(160, 160, 160);font-size: 3.7vw;" class="text-center my-3" >Consortium, the Annual Entrepreneurship Summit of VNIT Nagpur comprises invigorating events like Startup Conclave, Chamber of Commerce, Ecopreneur and many more. The summit aims at fueling entrepreneurial attitudes amongst students through healthy competition,exciting challenges and various keynote sessions and panel discussions.
-                  <br><span style="color: red;"> Get ready to Defy all Odds at Consortium'22.</span></p>
+                  <br><span style="color: red;">Get ready to satiate your craving for answers in Consortium '22!</span></p>
                 <div class="text-center mt-3 px-5">
                     <a href="register.php" target="_blank"><button type="button" class="btn btn3" style="font-size: 3.7vw;">Register Now</button></a> <br> <br>
                     <a class="" href="eventReg/check.php"><button type="button" class="btn btn3 " style="font-size: 3.7vw;" >Your events</button></a>
