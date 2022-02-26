@@ -35,6 +35,16 @@
 
     <div class="col-12 col-md-6 col-lg-4 eventcard mx-4">
             <!-- <span class="tag px-4 py-2">PAN NIT</span> -->
+            <img src="img/wallstreet poster final.png" alt="">
+            <h5 class="mt-2" style="font-weight: bold;">WALLSTREET</h5>
+              <h6 class="mt-2 pb-3 mx-2 text-white text-left desc">This event aims to test managing skills of the students and will help you discover the businessman/stock trader in you.</h6>
+              <div class="col-md-12 text-right mb-5 mt-2">
+                <a href="./wallstreet" target="_blank"><button type="button" class="btn btn4">Register Now</button></a>
+            </div>
+          </div>
+
+    <div class="col-12 col-md-6 col-lg-4 eventcard mx-4">
+            <!-- <span class="tag px-4 py-2">PAN NIT</span> -->
             <img src="img/suc.jpeg" alt="">
             <h5 class="mt-2" style="font-weight: bold;">STARTUP CONCLAVE</h5>
               <h6 class="mt-2 mx-2 pb-3 text-white text-left desc">StartUp Conclave is a national-level business plan competition to facilitate and encourage this vision of promoting entrepreneurship for a brighter future in India.</h6>
@@ -85,16 +95,6 @@
                 <a href="https://www.ecellvnit.org/ceo/ceo.php" target="_blank"><button type="button" class="btn btn4">Register Now</button></a>
             </div>
           </div>
-
-          <!-- <div class="col-12 col-md-6 col-lg-4 eventcard mx-4">
-            <span class="tag px-4 py-2">PAN NIT</span>
-            <img src="img/karan.jpg" alt="">
-            <h5 class="mt-2" style="font-weight: bold;">WAR OF WORLDS</h5>
-              <h6 class="mt-2 pb-3 mx-2 text-white text-left desc">War of Worlds is an exciting event that will engage you into a fast-paced virtual world and test your quick thinking, decision making and analytical skills.</h6>
-              <div class="col-md-12 text-right mb-5 mt-2">
-                <a href="" target="_blank"><button type="button" class="btn btn4">Register Now</button></a>
-            </div>
-          </div> -->
     </div>
 
 

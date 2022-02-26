@@ -1,0 +1,150 @@
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+.heading {
+  background: #292929;
+  color: #fff;
+  border-radius: 30px;
+}
+.container {
+  max-width: 80%;
+}
+.container1 {
+  max-width: 100%;
+}
+.heading h1,
+h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.heading p {
+  font-size: large;
+}
+.card img {
+  padding: 5px 0;
+  height: 204px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  border-radius: 20px;
+  height: 204px;
+  width: 300px;
+  margin: 30px 50px;
+  box-shadow: 0px 4px 20px 0 rgb(0 0 0 / 20%);
+  border: none;
+}
+
+/* CONTACT US CSS */
+.container{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.contactcard {
+  border-radius: 30px;
+  height: 344px;
+  width: 270px;
+  margin: 30px 50px;
+  background-color: #fff;
+}
+.contactcard img {
+  padding: 0 0;
+  width: 270px;
+  border-radius: 30px;
+  margin-left: -12px;
+  height: 207px;
+}
+.contactcard h5 {
+  color: black;
+  font-weight: bold;
+}
+
+.corecard img {
+  padding: 0 0;
+  width: 270px;
+  border-radius: 30px;
+  margin-left: -12px;
+  height: 344px;
+}
+.desig {
+  color: rgb(192, 192, 192);
+}
+#linkedin {
+  height: 35px;
+  width: 35px;
+  margin-right: 160px;
+  margin-top: 3px;
+}
+.name {
+  margin-top: -36px;
+  margin-left: 60px;
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+}
+.phone {
+  margin-top: -3px;
+  margin-left: 37px;
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+}
+.hex {
+  position: relative;
+  z-index: -1;
+  filter: brightness(50%);
+  margin-bottom: -930px;
+  margin-left: 55%;
+}
+.hexteam {
+  opacity: 0.8;
+  z-index: -1;
+  margin-left: 400px;
+  margin-top: -200px;
+  margin-bottom: -1100px;
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 95%;
+  }
+  .heading h1 {
+    font-size: 2rem;
+  }
+  .card {
+    margin: 30px;
+  }
+  .hex {
+    margin-left: 10%;
+  }
+}
+@media only screen and (min-width: 0px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hexteam {
+    opacity: 0.8;
+    z-index: -1;
+    margin-left: 80px;
+    margin-top: -200px;
+    margin-bottom: -300px;
+  }
+}

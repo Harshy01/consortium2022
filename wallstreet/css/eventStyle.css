@@ -1,0 +1,276 @@
+body {
+  background-color: #292929;
+}
+
+.e {
+  border: 5px dashed #fff;
+  border-right: 0;
+  height: 30rem;
+  top: 20px;
+  width: 110px;
+}
+e:after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  top: 61px;
+  width: 30px;
+}
+.line {
+  border-top: 5px dashed #fff;
+  margin-top: 15rem;
+}
+.struct {
+  background-color: #fff;
+  border-radius: 25px;
+}
+.struct h4 {
+  font-weight: 900;
+  text-shadow: 0px 1px, 0px 0px;
+}
+.struct h4,
+.struct p {
+  color: #3a3a3a;
+}
+
+.reason li {
+  color: #fff;
+  text-align: left;
+  font-size: 1.5vw;
+  list-style-type: none;
+}
+.reason li::before {
+  content: "🔴"; 
+  font-size: 0.8rem;
+  margin-right: 10px; 
+}
+.cont p {
+  font-size: 1.5vw;
+}
+@media only screen and (max-width: 800px) {
+  .e {
+    height: 36rem;
+  }
+  .line {
+    margin-top: 18rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .e {
+    height: 40rem;
+  }
+  .line {
+    margin-top: 20rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .e {
+    height: 50rem;
+  }
+  .line {
+    margin-top: 25rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .reason li {
+    font-size: 3.8vw;
+  }
+  .cont p {
+    font-size: 3.8vw;
+  }
+}
+
+/* CEO */
+.ceoE {
+  border: 5px dashed #fff;
+  border-right: 0;
+  height: 50rem;
+  top: 20px;
+  width: 110px;
+}
+.ceoE:after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  top: 61px;
+  width: 30px;
+}
+.ceoline1 {
+  border-top: 5px dashed #fff;
+  margin-top: 16rem;
+}
+.ceoline2 {
+  border-top: 5px dashed #fff;
+  margin-top: 16rem;
+}
+@media only screen and (max-width: 600px) {
+  .ceoE {
+    height: 66rem;
+  }
+  .ceoline1 {
+    margin-top: 22rem;
+  }
+  .ceoline2 {
+    margin-top: 22rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ceoE {
+    height: 90rem;
+  }
+  .ceoline1 {
+    margin-top: 30rem;
+  }
+  .ceoline2 {
+    margin-top: 30rem;
+  }
+}
+
+/* TIMELINE */
+.timeline {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.timeline .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #d5242a;
+  margin: 0;
+  padding: 2px;
+  
+  /* margin-right: -10px; */
+  z-index: 2;
+  position: relative;
+  
+}
+.timeline .circle:hover {
+  cursor: pointer;
+}
+.timeline .circle p {
+  text-align: center;
+  z-index: 5;
+  margin: auto;
+  line-height: 30px;
+  color: #ffffff;
+}
+.timeline .link {
+  z-index: 0;
+  background-color: #fff;
+  padding: 0;
+}
+.square {
+  width: 200px;
+  min-width: 100px;
+  height: 115px;
+  border-radius: 10px;
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+}
+.square.blank {
+  visibility: hidden;
+}
+#end {
+  width: 0;
+  height: 0;
+}
+.square h3,
+.square h4 {
+  margin: 0px 0px 0px 10px;
+  text-align: center;
+}
+.square h3 {
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 1.1rem;
+
+}
+.square h4 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-top: 8px;
+  color: #d5242a;
+}
+
+/* HORIZONTAL TIMELINE */
+#horizontal-timeline {
+  flex-direction: row;
+  min-width: 1100px;
+}
+.horizontal .link {
+  width: auto;
+  height: 5px;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+.horizontal .square {
+  margin: 30px 0 20px -30px;
+}
+.horizontal .square p {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.horizontal #end {
+  margin: 173px 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fff;
+}
+
+
+
+
+/* VERTICAL TIMELINE */
+.vertical .block {
+  display: flex;
+  flex-direction: row;
+}
+#vertical-timeline {
+  flex-direction: column;
+}
+.vertical .link {
+  width: 5px;
+  height: 150px;
+  margin-top: 0;
+  margin-left: -20px;
+  margin:0 15px ;
+}
+.vertical .square {
+  width: 200px;
+  height: auto;
+}
+.vertical .square p {
+  padding: 0;
+  margin: 0;
+}
+.vertical #end {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  margin: auto;
+  margin-left: 48%;
+}
+.vert h3,
+.vert h4 {
+  margin: 0px 0px 0px 10px;
+  text-align: center;
+}
+.vert h3 {
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 1rem;
+
+}
+.vert h4 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-top: 8px;
+  color: #d5242a;
+}
+
+
