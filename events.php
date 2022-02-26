@@ -82,7 +82,7 @@
             <h5 class="mt-2" style="font-weight: bold;">CEO</h5>
               <h6 class="mt-2 pb-3 mx-2 text-white text-left desc">CEO is an event that provides a glimpse into the future, where excellent leadership is necessary for success, and where participants take risks during the most challenging times.</h6>
               <div class="col-md-12 text-right mb-5 mt-2">
-                <a href="ceo.php" target="_blank"><button type="button" class="btn btn4">Register Now</button></a>
+                <a href="https://www.ecellvnit.org/ceo/ceo.php" target="_blank"><button type="button" class="btn btn4">Register Now</button></a>
             </div>
           </div>
 
