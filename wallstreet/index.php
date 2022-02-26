@@ -46,7 +46,7 @@ Implement your best strategies and win the best profits.
                 </div>
             </div>
     
-            <div class="col-12 col-md-5 text-white text-center">
+            <div class="col-12 col-md-5 text-white text-center pt-3">
                 <!-- <h6  style="font-weight: 500;text-shadow: 0px 1px, 1px 0px, 1px 1px;font-size: 4.5vw;" class="mt-4">UNCOVER THE FUTURE LEADERS</h6> -->
                 <p style="color: #D5242A;font-size: 3.7vw;">Passion…Patience…Persistence…Profit
 Implement your best strategies and win the best profits.
