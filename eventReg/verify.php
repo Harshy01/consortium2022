@@ -181,11 +181,11 @@
             <?php if( mysqli_num_rows($wallstreet)): ?>
                 <div class="col-12 col-md-6 col-lg-4 eventcard mx-4">
                     <!-- <span class="tag px-4 py-2">PAN NIT</span> -->
-                    <img src="../img/coc.jpg" alt="">
+                    <img src="../img/wallstreet poster final.png" alt="">
                     <h5 class="mt-2 text-center" style="font-weight: bold;">Wallstreet</h5>
-                    <h6 class="mt-2 mx-2 pb-3 text-white text-left desc">Chamber of Commerce is a premier body whose goal is the collective and communal enhancement of businesses.It serves essential roles in development for projects.</h6>
+                    <h6 class="mt-2 mx-2 pb-3 text-white text-left desc">This event aims to test managing skills of the students and will help you discover the businessman/stock trader in you.</h6>
                     <div class="col-md-12 text-right mb-5 mt-2">
-                        <a href="https://www.ecellvnit.org/coc/" target="_blank"><button type="button" class="btn btn4" style="margin-top: -8px;">Register Now</button></a>
+                        <a href="https://consortium.ecellvnit.org/wallstreet/" target="_blank"><button type="button" class="btn btn4" style="margin-top: -8px;">Register Now</button></a>
                     </div>
                 </div>
             <?php endif; ?>
