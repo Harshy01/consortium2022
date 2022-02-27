@@ -214,7 +214,7 @@
         </div>
     </div>
     
-    <?php if(!mysqli_num_rows($ceo) && !mysqli_num_rows($neo) && !mysqli_num_rows($eco) && !mysqli_num_rows($suc) && !mysqli_num_rows($coc)): ?>
+    <?php if(!mysqli_num_rows($ceo) && !mysqli_num_rows($neo) && !mysqli_num_rows($eco) && !mysqli_num_rows($suc) && !mysqli_num_rows($coc) && !mysqli_num_rows($wallstreet)): ?>
         <div class="wrapper mx-auto" style="background-color: #fff;width: 70%;border-radius: 30px;">
             <div><img src="../img/notFound.png" width="60%" alt=""></div>
         <h4 class="text-center px-3">You haven't registered to any event. If you think it's a mistake kindly check your registered email once.</h4>
