@@ -28,7 +28,7 @@ Implement your best strategies and win the best profits.
                 <div class="col-12 col-md-5">
                     <div class="owl-carousel owl-theme pt-5" id="one">
                         <div class="item">
-                            <img src="img/wallstreet poster final.png" alt="">
+                            <img src="img/wallstreet poster.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ Implement your best strategies and win the best profits.
             <div class="col-12 col-md-5">
                 <div class="owl-carousel owl-theme" id="two">
                 <div class="item">
-                            <img src="img/wallstreet poster final.png" alt="">
+                            <img src="img/wallstreet poster.png" alt="">
                         </div>
                 </div>
             </div>
