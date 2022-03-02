@@ -234,7 +234,7 @@ Our experts will shortlist the contenders for the first round based on their cri
 
       <div class="row align-items-center container1 text-center mx-auto" style="max-width: 85%;">
         <div class="col-12 col-md-6 col-lg-4 card mx-4 align-items-center" data-aos="fade-up" data-aos-duration="2000">
-          <img class="my-auto" style="max-width: 100%; height: auto;" src="img/sponsors/zerodha logo.png" alt="" width="204px">
+          <img class="my-auto" style="max-width: 70%;" src="img/sponsors/stockGro.jpeg" alt="" width="204px">
         </div>
         <div class="col-12 col-md-6 col-lg-4 card mx-4 align-items-center"data-aos="fade-up" data-aos-duration="2000">
           <img class="my-auto" style="max-width: 70%;" src="img/sponsors/stockedge logo.jpg" alt="" width="204px">
