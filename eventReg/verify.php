@@ -181,7 +181,7 @@
             <?php if( mysqli_num_rows($wallstreet)): ?>
                 <div class="col-12 col-md-6 col-lg-4 eventcard mx-4">
                     <!-- <span class="tag px-4 py-2">PAN NIT</span> -->
-                    <img src="../img/wallstreet poster final.png" alt="">
+                    <img src="../img/wallstreet poster.png" alt="">
                     <h5 class="mt-2 text-center" style="font-weight: bold;">Wallstreet</h5>
                     <h6 class="mt-2 mx-2 pb-3 text-white text-left desc">This event aims to test managing skills of the students and will help you discover the businessman/stock trader in you.</h6>
                     <div class="col-md-12 text-right mb-5 mt-2">
