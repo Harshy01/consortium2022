@@ -56,6 +56,9 @@
            <a href="#timeline_mob" class="nav-link">Timeline</a>
           </li>
           <li class="nav-item">
+            <a href="#sponsors" class="nav-link">Sponsors</a>
+          </li>
+          <li class="nav-item">
             <a href="#managers" class="nav-link">Managers</a>
           </li>
         </ul>
@@ -63,7 +66,7 @@
           <a class="btn btn-dark bg btn1 px-4" href="register.php" target="_blank" role="button">Register</a>
         </li>
         <li class="nav-item d-none d-lg-block">
-          <a class="btn btn-dark bg  btn2 mx-4 px-4" href="" target="_blank" role="button">Login</a>
+          <a class="btn btn-dark bg  btn2 mx-4 px-4" href="../eventReg/check.php" target="_blank" role="button">Login</a>
         </li>
       </div>
     </nav>

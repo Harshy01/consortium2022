@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="img/favicon_io/site.webmanifest">
     <title>WALLSTREET | Consortium '22, E-CELL, VNIT, 2022</title>
 </head>
 <?php include('includes/header.php')?>
@@ -223,6 +227,25 @@ Our experts will shortlist the contenders for the first round based on their cri
             
             <div id="end"></div>
           </div>
+    </section>
+
+    <section id="sponsors" class="text-center my-5">
+      <h1  style="font-weight: 900;font-size: 2.3rem;color: #D5242A;">OUR SPONSORS</h1>
+
+      <div class="row align-items-center container1 text-center mx-auto" style="max-width: 85%;">
+        <div class="col-12 col-md-6 col-lg-4 card mx-4 align-items-center" data-aos="fade-up" data-aos-duration="2000">
+          <img class="my-auto" style="max-width: 100%; height: auto;" src="img/sponsors/zerodha logo.png" alt="" width="204px">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card mx-4 align-items-center"data-aos="fade-up" data-aos-duration="2000">
+          <img class="my-auto" style="max-width: 70%;" src="img/sponsors/stockedge logo.jpg" alt="" width="204px">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card mx-4 align-items-center" data-aos="fade-up" data-aos-duration="2000">
+          <img class="my-auto" style="max-width: 100%; height: auto;" src="img/sponsors/finlatics logo.png" alt="" width="204px">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card mx-4 align-items-center" data-aos="fade-up" data-aos-duration="2000">
+          <img class="my-auto" style="max-width: 100%; height: auto;" src="img/sponsors/elearnmarkets_logo.png" alt="" width="204px">
+        </div>
+      </div>
     </section>
 
     <section>
