@@ -32,6 +32,16 @@
 
     <h1 class="text-white text-center mt-5" style="font-weight: bold;" >EVENTS</h1>
     <div class="row align-items-center text-center mx-0 mb-3 text-white">
+      
+    <div class="col-12 col-md-6 col-lg-4 eventcard mx-4">
+            <!-- <span class="tag px-4 py-2">Growth Hacking Intern</span> -->
+            <img src="img/GHI.jpeg" alt="">
+            <h5 class="mt-2" style="font-weight: bold;">Growth Hacking Internship</h5>
+              <h6 class="mt-2 pb-3 mx-2 text-white text-left desc">We are Hiring!!</h6>
+              <div class="col-md-12 text-right mb-5 mt-2">
+                <a href="./growth" target="_blank"><button type="button" class="btn btn4">Apply Now</button></a>
+            </div>
+          </div>
 
     <div class="col-12 col-md-6 col-lg-4 eventcard mx-4">
             <!-- <span class="tag px-4 py-2">PAN NIT</span> -->
